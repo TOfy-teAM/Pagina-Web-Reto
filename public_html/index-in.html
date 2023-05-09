@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="icon" type="image/x-icon" href="./image/1682324943506(1).png">     
+</head>
+<body>
+  <a href="./index-in.html"><img class="ingles" src="./image/Idioma1.png"></a>
+  <a href="./index-eu.html"><img class="euskera" src="./image/idioma2.svg"></a>
+  <a href="./index.html"><img class="euskera" src="./image/idioma3.png"></a>
+<header>
+  <h1>Home</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index-in.html">Home</a></li>
+    <li><a href="Servicio-in.html">About Us</a></li>
+    <li><a href="ottoes-in.html">Otto Ninja</a></li>
+    <li><a href="Contacto-in.html">Contact</a></li>
+  </ul>
+  <div class="hide">
+    <i class="fa fa-bars" aria-hidden="true"></i> Menu
+  </div>
+</nav>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>
+    $(".hide").on('click', function() {
+      $("nav ul").toggle('slow');
+    })
+  </script>
+  
+  <div class="caja">
+  </div>
+
+</body>
+</html>

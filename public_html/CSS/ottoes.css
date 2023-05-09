@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Century Gothic', sans-serif;
+    background-image: url(../image/fondoreto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  header {
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: #112d4e00;
+  }
+  
+  nav ul {
+    background: #16488400;
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+  
+  }
+  
+  ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+  }
+  
+  ul li:hover {
+    background: #000000d8;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hide {
+    padding: 16px;
+    font-size: 22px;
+    background: #112d4e00;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    ul li {
+      width: 100%;
+      padding: 15px;
+      text-align: left;
+    }
+  
+    .hide {
+      display: block;
+    }
+  
+    nav ul {
+    display: none;
+  
+    }
+  }
+.ingles{
+  width: 5%;
+  height: 5%;
+  margin-top: -0.5%;
+}
+.euskera{
+  width: 5%;
+  height: 5%;
+  margin-top: -0.5%;
+  margin-bottom: 0.5%;
+}
+.caja{
+    border: 2px solid rgba(0, 0, 0, 0.712);
+    background-color: rgba(0, 0, 0, 0.555);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Que{
+    color: white;
+    font-size: 30px;
+    margin-left: 1%;
+}
+p{
+    color: white;
+    font-size: 17px;
+    margin-left: 3% ;
+}
+.caracte{
+    color: white;
+    font-size: 30px;
+    margin-left: 1%;
+}
+.compe{
+    color: white;
+    font-size: 30px;
+    margin-left: 1%;
+}
+.otto{
+  width: 30%;
+  height: 30%;
+  margin-left: 60%;
+  margin-bottom: 10%;
+  margin-top: -40%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.otto:hover{
+  box-shadow: 0px 15px 35px rgba(151, 21, 21, 0.795);
+}

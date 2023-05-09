@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Century Gothic', sans-serif;
+  background-image: url(../image/fondoreto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background: #112d4e00;
+}
+
+nav ul {
+  background: #16488400;
+  text-align:center;
+  list-style: none;
+  overflow: hidden;
+
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+  transition: all ease-in-out 250ms;
+}
+
+ul li:hover {
+  background: #000000d8;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hide {
+  padding: 16px;
+  font-size: 22px;
+  background: #112d4e00;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 843px) {
+  ul li {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  nav ul {
+  display: none;
+
+  }
+}
+h1{
+    text-align:center;
+    color: white;
+}
+.caja{
+    border: 2px solid rgba(0, 0, 0, 0.712);
+    background-color: rgba(0, 0, 0, 0.555);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.pr0{
+    color: white;
+    margin-left: 3%;
+    margin-top:5%;
+
+}
+.miembros{
+    color: white;
+    margin-left: 3%;
+    margin-top:5%;
+}
+.n1{
+    color: white;
+    margin-left: 3%;
+    margin-top:3%;
+}
+.n2{
+    color: white;
+    margin-left: 3%;
+        margin-top:1%;
+}
+.n3{
+    color: white;
+    margin-left: 3%;
+        margin-top:1%;
+}
+.n4{
+    color: white;
+    margin-left: 3%;
+        margin-top:1%;
+}
+.n5{
+    color: white;
+    margin-left: 3%;
+        margin-top:1%;
+}
+.slo{
+    margin-left: 50%;
+    margin-top: -20%;
+}
+.r0{
+    color: white;
+    margin-left: 3%;
+    margin-top:1%;
+}
+.r1{
+    color: white;
+    margin-left: 3%;
+        margin-top:4%;
+}
+.r2{
+    color: white;
+    margin-left: 3%;
+    margin-top:4%;
+}
+.r3{
+    color: white;
+    margin-left: 3%;
+        margin-top:4%;
+}
+.fr1{
+    color:white;
+    margin-left:3%;
+}
+.fr2{
+    color:white;
+    margin-left:3%;
+}
+.fr3{
+    color:white;
+    margin-left:3%;
+}
+.ingles{
+  width: 5%;
+  height: 5%;
+  margin-top: -0.5%;
+}
+.euskera{
+  width: 5%;
+  height: 5%;
+  margin-top: -0.5%;
+  margin-bottom: 0.5%;
+}
